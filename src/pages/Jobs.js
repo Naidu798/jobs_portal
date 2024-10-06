@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import { JobsPortalContext } from "../context/JobPortalContext";
 import BottomNavbar from "../components/BottomNavbar";
 import JobCard from "../components/JobCard";
+import SwipeComponent from "../components/Swipe";
 
 const Jobs = () => {
   // const [jobs, setJobs] = useState([]);
@@ -35,6 +36,7 @@ const Jobs = () => {
     <div className="bg-slate-50 pb-10">
       <Header />
       <div className="md:px-10 md:pt-6 px-3 py-3">
+        <SwipeComponent />
         <div className="bg-white md:p-4 px-2 py-4 rounded-md">
           <h2 className="md:text-2xl text-xl font-semibold ml-4 text-blue-300 bg-blue-50 pb-0.5 px-4 rounded-2xl inline-block">
             Available Jobs
